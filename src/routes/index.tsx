@@ -103,12 +103,42 @@ const routes: any[] = [
     ],
   },
 
-  // {
-  //   name: 'Dashboard',
-  //   path: '/dashboard',
-  //   component: './UserSide/Dashboard',
-  //   access: 'editor',
-  // },
+  {
+    name: 'StocksAnalysis',
+    path: '/stocksanalysis',
+    component: './UserSide/StocksAnalysis',
+    access: 'admin',
+  },
+  {
+    name: 'ProductProfile',
+    path: '/product-profile',
+    component: './UserSide/ProductProfile',
+    access: 'admin',
+  },
+  {
+    name: 'RawMaterialProfile',
+    path: '/raw-material-profile',
+    component: './UserSide/RawMaterialProfile',
+    access: 'admin',
+  },
+  {
+    name: 'SupplierProfile',
+    path: '/supplier-profile',
+    component: './UserSide/SupplierProfile',
+    access: 'admin',
+  },
+  {
+    name: 'Distribution',
+    path: '/distribution',
+    component: './UserSide/Distribution',
+    access: 'admin',
+  },
+  {
+    name: 'CostAnalysis',
+    path: '/cost-analysis',
+    component: './UserSide/CostAnalysis',
+    access: 'admin',
+  },
   // {
   //   name: 'Planner',
   //   path: '/planner',
@@ -142,7 +172,7 @@ const routes: any[] = [
   //       component: './UserSide/Mapping/LinesAndTanks',
   //     },
   //   ],
-  // },
+  // },yarn start
   // {
   //   name: 'Users',
   //   path: '/users',
